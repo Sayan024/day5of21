@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(220, 212, 212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profilecard{
+    width: 30%;
+    height: 90%;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+}
+h1{
+    font-family: Helvetica;
+}
+.profilecard img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+#lblimg{
+    font-family: Helvetica;
+    width: 120px;
+    padding: 10px;
+    color: azure;
+    background-color: blue;
+    position: absolute;
+    left: 37%;
+    bottom: 10%;
+    border-radius: 10px;
+}
+#myfile{
+    visibility: hidden;
+}
+.proinfo{
+    margin-top: 20px;
+}
+.proinfo{
+    display: flex;
+    height: 10%;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+.uid,.username{
+    font-family: Helvetica;
+    margin-top: 10px;
+}
